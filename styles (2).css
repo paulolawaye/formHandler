@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header,#slider{
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+ul li a:hover{
+    background-color: darkred;
+    color: #fff;
+}
+ul li.active a{
+    background-color: black;
+    color: lemon;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top:  25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: palegreen;
+    padding: 5px 20px;
+    border:solid 1px palegreen;
+    transition: 0.6s ease;
+}
+li a:hover:not(.active){
+    background-color: greenyellow;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: darksalmon;
+    font-size: 50px;
+}
+.logo1 img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.button{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: ivory 1px solid;
+    padding: 3px 3px;
+    color: lemonchiffon;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.btn:hover{
+    background-color: lightblue;
+    color: lightcyan;
+}
+p{
+    text-align: center;
+    font-weight: 900;
+    text-emphasis:20px;
+}
+#slider{
+    overflow: hidden;
+    background-attachment: scroll;
+    /* position: sticky; */
+    margin-trim: 0px;
+    margin-top: 0%;
+}
+.navbar,#slider{
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-color: burlywood;
+}
+.navbar{
+    background-color: burlywood;
+    padding-right: 5px;
+    overflow: hidden;
+    background-size: cover;
+    top: 2px;
+    padding: 30px 20px;
+    margin-bottom: 0px;
+    background-repeat: inherit;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    height: 20vh;
+    margin: 0%;
+    right: 0%;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    background-attachment: inherit;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -20
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%; 
+    }
+}
+footer{
+    background-color: burlywood;
+    color: cadetblue;
+    height: 35vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 1px;
+}
+a{
+    text-decoration: none;
+}
+.logo2,h5{
+    float: left;
+    width: 400px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 5px 20px;
+}
+#link{
+    float: left;
+    width: 300px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#connect{
+    float: left;
+    width: 300px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-transform: capitalize; 
+}
+#contact{
+    float: left;
+    width: 200px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+h2,h3,h4{
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-style: nomal;
+    font-weight: 900;
+    margin-top: 70px;
+}
+h1{
+    color: cadetblue;
+}
+#para1,#para2,#para3{
+    font-size: large;
+    float: left;
+    margin-top: 50px;
+    border: gray solid 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: black solid 10px 10px 10px 10px;
+    background-color: white;
+}
+#para1{
+    margin-right: 20px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 165px;
+    padding-right: 80px;
+}
+#para2{
+    margin-right: 20px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 80px;
+}#para3{
+    margin-right: 20px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    padding-right: 80px;
+}
+.content{
+    margin-bottom: 600px;
+    margin-top: 150px;
+}
+#serv1{
+    float: left;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+#serv2{
+    float: left;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+#serv3{
+    float: left;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50pX;
+    text-align: center;
+}
+.A{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    float: left;
+    text-align: center;
+}
+.B{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    float: left;
+    text-align: center;
+}
+.C{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    float: left;
+    text-align: center;
+}
+.para4{
+    float: left;
+    padding-right: 100px;
+    padding-left: 200px;
+    text-align: center;
+    margin-left: 50px;
+}
+.b2{
+    float:left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content3{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
