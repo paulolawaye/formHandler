@@ -3,6 +3,19 @@
     padding: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+:root {
+    font-size: 0.75em;
+   }
+   @media (min-width: 800px) {
+    :root {
+    font-size: 0.875em;
+    }
+   }
+   @media (min-width: 1200px) {
+    :root {
+    font-size: 1em;
+    }
+   }
 header,#slider{
     background-size: cover;
     background-position: center;

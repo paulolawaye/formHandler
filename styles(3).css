@@ -3,6 +3,19 @@
     padding: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+:root {
+    font-size: 0.75em;
+   }
+   @media (min-width: 800px) {
+    :root {
+    font-size: 0.875em;
+    }
+   }
+   @media (min-width: 1200px) {
+    :root {
+    font-size: 1em;
+    }
+   }
 header,#slider{
     background-size: cover;
     background-position: center;
@@ -66,10 +79,10 @@ a{
 }
 .logo2,h3{
     float: left;
-    width: 500px;
+    width: 400px;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding-top: 50px;
 }
@@ -92,26 +105,26 @@ strong{
 }
 #link{
     float: left;
-    width: 400px;
+    width: 300px;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 30px;
 }
 #connect{
     float: left;
-    width: 400px;
+    width: 300px;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 30px;
 }
 #contact{
     float: left;
-    width: 200px;
+    width: 300px;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 30px;
 }
 .title{
